@@ -1,3 +1,13 @@
+Gaming Zone
+Link to visit site ----->
+
+
+Creating Gaming zone site using Chakra Ui.
+Chakra UI is a simple, modular and accessible component library that gives you the building blocks you need to build your React applications.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
