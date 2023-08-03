@@ -1,5 +1,5 @@
 Gaming Zone
-Link to visit site ----->
+Link to visit site -----> https://react-gaming-zone.vercel.app/
 
 
 Creating Gaming zone site using Chakra Ui.
