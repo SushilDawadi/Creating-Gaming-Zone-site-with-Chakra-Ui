@@ -11,7 +11,6 @@ import img5 from '../assets/mincraft.jpg';
 const headingOptions = {
   pos: 'absolute',
   top: '50%',
-  left: '[0%,25%]',
   transfrom: 'translate(-50%,-50%)',
   textTransform: 'uppercase',
   p: '4',
@@ -29,31 +28,31 @@ const MyCarousel = () => {
       showArrows={false}
     >
       <Box w={'full'} h={'100vh'}>
-        <Image src={img2} />
+        <Image src={img2} w={'full'} h={'full'} objectFit={'cover'} />
         <Heading bg={'blackAlpha.600'} color={'white'} {...headingOptions}>
           Eat. Sleep. Game. Repeat.
         </Heading>
       </Box>
       <Box w={'full'} h={'100vh'}>
-        <Image src={img1} />
+        <Image src={img1} w={'full'} h={'full'} objectFit={'cover'} />
         <Heading bg={'blackAlpha.600'} color={'white'} {...headingOptions}>
           Keep calm and game on.
         </Heading>
       </Box>
       <Box w={'full'} h={'100vh'}>
-        <Image src={img3} />
+        <Image src={img3} w={'full'} h={'full'} objectFit={'cover'} />
         <Heading bg={'blackAlpha.600'} color={'white'} {...headingOptions}>
           Game brings people together
         </Heading>
       </Box>
       <Box w={'full'} h={'100vh'}>
-        <Image src={img4} />
+        <Image src={img4} w={'full'} h={'full'} objectFit={'cover'} />
         <Heading bg={'blackAlpha.600'} color={'white'} {...headingOptions}>
           life is a game play to win
         </Heading>
       </Box>
       <Box w={'full'} h={'100vh'}>
-        <Image src={img5} />
+        <Image src={img5} w={'full'} h={'full'} objectFit={'cover'} />
         <Heading bg={'blackAlpha.600'} color={'white'} {...headingOptions}>
           Gamers Don't Die <br />
           They Respawn
