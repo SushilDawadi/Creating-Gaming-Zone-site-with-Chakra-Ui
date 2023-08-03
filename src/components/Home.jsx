@@ -27,8 +27,8 @@ const Home = () => {
         >
           <Image
             src={img6}
-            borderTopLeftRadius={'100'}
-            borderBottomRightRadius={'100'}
+            borderTopLeftRadius={['50', '100']}
+            borderBottomRightRadius={['50', '100']}
             w={500}
             m={'auto'}
             filter={'hue-rotate(-130deg)'}

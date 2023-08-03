@@ -11,7 +11,7 @@ import img5 from '../assets/mincraft.jpg';
 const headingOptions = {
   pos: 'absolute',
   top: '50%',
-  left: '25%',
+  left: '[0%,25%]',
   transfrom: 'translate(-50%,-50%)',
   textTransform: 'uppercase',
   p: '4',
